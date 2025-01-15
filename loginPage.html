@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasky - Welcome Back</title>
+    <link rel="stylesheet" href="style2.css">
+   
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="login-section">
+            <div class="logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjNDk0NWZmIj48cGF0aCBkPSJNMTkgM2gtNC4xOEMxNC40IDEuODQgMTMuMyAxIDEyIDFjLTEuMyAwLTIuNC44NC0yLjgyIDJINXYyaDE0VjN6bS03IDBjLjU1IDAgMSAuNDUgMSAxcy0uNDUgMS0xIDEtMS0uNDUtMS0xIC40NS0xIDEtMXptNCAxMnY3SDhWOEg2djE0aDEydi05aC0yeiIvPjwvc3ZnPg=="
+                    alt="Tasky Logo">
+                <span>Tasky</span>
+            </div>
+            <h1>Welcome Back!</h1>
+            <p class="subtitle">Please enter login details below</p>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter the email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter the Password">
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="sign-in-btn">Sign in</button>
+                <div class="divider">
+                    <span>Or continue</span>
+                </div>
+                <button type="button" class="google-btn">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNDI4NUY0IiBkPSJNMjIuNTYgMTIuMjVjMC0uNzgtLjA3LTEuNTMtLjItMi4yNUgxMnYzLjI2aDUuOTJjLS4yNiAxLjM3LTEuMDQgMi41My0yLjIxIDMuMzF2Mi43N2gzLjU3YzIuMDgtMS45MiAzLjI4LTQuNzQgMy4yOC04LjA5eiIvPjxwYXRoIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xMiAyM2MyLjk3IDAgNS40Ni0uOTggNy4yOC0yLjY2bC0zLjU3LTIuNzdjLTEuMDEuNjgtMi4yOSAxLjA4LTMuNzEgMS4wOC0yLjg1IDAtNS4yNy0xLjkzLTYuMTQtNC41MUguMzR2Mi44N0MyLjE1IDIwLjUzIDYuOCAyMyAxMiAyM3oiLz48cGF0aCBmaWxsPSIjRkJCQzA1IiBkPSJNNS44NiAxMy44N2MtLjIyLS42Ni0uMzUtMS4zNi0uMzUtMi4wOXMuMTMtMS40My4zNS0yLjA5VjYuODJILjM0QTEwLjk1IDEwLjk1IDAgMCAwIDAgMTEuNzhhMTAuOTUgMTAuOTUgMCAwIDAgLjM0IDQuOTVsMy41Mi0yLjg2eiIvPjxwYXRoIGZpbGw9IiNFQTQzMzUiIGQ9Ik0xMiA1LjMyYzEuNjEgMCAzLjA2LjU1IDQuMiAxLjY0bDMuMTUtMy4xNUMxNy40NSAyLjA5IDE0Ljk3IDEgMTIgMSA2LjggMSAyLjE1IDMuNDcuMzQgNy4wN2wzLjUyIDIuODZjLjg3LTIuNTggMy4yOS00LjYxIDYuMTQtNC42MXoiLz48L3N2Zz4="
+                        alt="Google Logo">
+ 
+                    Log in with Google
+                </button>
+                <p class="signup-link">
+ 
+                    Don't have an account? <a href="#">Sign Up</a>
+                </p>
+            </form>
+        </div>
+        <div class="illustration-section">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHN0eWxlPi5he2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTAwIDIwYzQ0LjE4IDAgODAgMzUuODIgODAgODBzLTM1LjgyIDgwLTgwIDgwLTgwLTM1LjgyLTgwLTgwIDM1LjgyLTgwIDgwLTgwbTAtMjBDNDQuNzcgMCAwIDQ0Ljc3IDAgMTAwczQ0Ljc3IDEwMCAxMDAgMTAwIDEwMC00NC43NyAxMDAtMTAwUzE1NS4yMyAwIDEwMCAweiIvPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTAwIDUwYzI3LjYxIDAgNTAgMjIuMzkgNTAgNTBzLTIyLjM5IDUwLTUwIDUwLTUwLTIyLjM5LTUwLTUwIDIyLjM5LTUwIDUwLTUwbTAtMjBjLTM4LjY2IDAtNzAgMzEuMzQtNzAgNzBzMzEuMzQgNzAgNzAgNzAgNzAtMzEuMzQgNzAtNzAtMzEuMzQtNzAtNzAtNzB6Ii8+PHBhdGggY2xhc3M9ImEiIGQ9Ik0xMDAgODBjMTEuMDUgMCAyMCA4Ljk1IDIwIDIwcy04Ljk1IDIwLTIwIDIwLTIwLTguOTUtMjAtMjAgOC45NS0yMCAyMC0yMG0wLTIwYy0yMi4wOSAwLTQwIDE3LjkxLTQwIDQwczE3LjkxIDQwIDQwIDQwIDQwLTE3LjkxIDQwLTQwLTE3LjkxLTQwLTQwLTQweiIvPjwvc3ZnPg=="
+                alt="Task Management Illustration" style="width: 200px; margin-bottom: 20px;">
+            <p class="illustration-text">Manage your task in a easy and more efficient way with Tasky...</p>
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot active"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+</body>
+ 
+</html>
+ 
+ 
